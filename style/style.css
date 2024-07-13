@@ -47,7 +47,81 @@
 html{
     scroll-behavior: smooth;
 }
+.box{
+    background-color: rgb(95, 93, 93);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.box:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+
+
+
+/* Donate Today plan */
+
+.plan{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+/* .plan h1{
+    font-size: 40px;
+    padding: 10px 10px;
+}
+.plan p{
+    font-size: 20px;
+    padding: 10px 10px;
+} */
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+}
+.plan h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.plan p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    margin: 0px 20px;
+    color: rgb(0, 0, 0);
+}
+.card{
+    margin-top: 20px;
+    background-color: beige;
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    /* width: 300px;
+    height: 260px; */
+}
 
 
 
@@ -120,7 +194,97 @@ html{
             font-weight: 500;
             color: rgb(0, 0, 0);
         }
-        
+
+        /* Donate Today section */
+        .Donate-today{
+            text-align: center;
+            margin-top: 120px;
+            margin-bottom: 50px;
+        }
+        .Donate-today >h1{
+            font-size: 33px;
+            font-weight: 600;
+        }
+        .Donate-today >p{
+            font-size: 20px;
+            font-weight: 500;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            line-height: 30px;
+            margin: 0px 30px;
+            color: rgb(0, 0, 0);
+        }
+        .Donate-today >div{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .Donate-today >button{
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            border: none;
+            margin-top: 20px;
+            background-color: rgb(216, 230, 23);
+        }
+        .Donate-today >button:hover{
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            border: none;
+            margin-top: 20px;
+            background-color: rgb(90, 219, 4);
+        }
+        .Donate-today hr{
+            width:70%;
+            margin: auto;
+
+        }
+
+
+        /* Our Donate Plan */
+
+        .card-container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 10px;
+        }
+
+        .card{
+            /* padding: 20px 20px; */
+            border-radius: 10px;
+            text-align: center;
+           
+        }
+        .card img{
+            width: 60px;
+            height: 60px;
+            margin-top: 20px;
+        }
+
+        .card h3{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .card p{
+            font-size: 18px;
+            font-weight: 500;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            line-height: 30px;
+            /* margin: 0px 30px; */
+            color: rgb(0, 0, 0);
+        }
+        .plan{
+            width: 80%;
+        }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.99px) {
@@ -194,6 +358,60 @@ html{
         color: rgb(196, 196, 196);
     
 }
+
+
+
+    /* Donate Today section */
+
+    .Donate-today{
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+    .Donate-today >h1{
+        font-size: 33px;
+        font-weight: 600;
+    }
+    .Donate-today >p{
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 30px;
+        margin: 0px 30px;
+        color: rgb(0, 0, 0);
+    }
+    .Donate-today >div{
+        margin-top: 20px;
+        display: flex;
+       margin: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .Donate-today >button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-top: 20px;
+        background-color: rgb(216, 230, 23);
+    }
+    .Donate-today >button:hover{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-top: 20px;
+        background-color: rgb(90, 219, 4);
+    }
+    .Donate-today hr{
+        width:70%;
+        margin: auto;
+
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.99px) {
@@ -268,6 +486,60 @@ html{
         color: rgb(196, 196, 196);
     
 }
+
+
+    /* Donate Today section */
+
+    .Donate-today{
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+    .Donate-today >h1{
+        font-size: 33px;
+        font-weight: 600;
+    }
+    .Donate-today >p{
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 30px;
+        margin: 0px 30px;
+        color: rgb(0, 0, 0);
+    }
+    .Donate-today >div{
+        margin-top: 20px;
+        display: flex;
+       margin: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Donate-today >button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-top: 20px;
+        background-color: rgb(216, 230, 23);
+    }
+    .Donate-today >button:hover{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-top: 20px;
+        background-color: rgb(90, 219, 4);
+    }
+    .Donate-today hr{
+        width:70%;
+        margin: auto;
+
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.99px) {
@@ -306,6 +578,61 @@ html{
     }
     .Login a:hover{
         color: rgb(69, 23, 238);
+    }
+
+
+
+    
+    /* Donate Today section */
+
+    .Donate-today{
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+    .Donate-today >h1{
+        font-size: 33px;
+        font-weight: 600;
+    }
+    .Donate-today >p{
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 30px;
+        margin: 0px 30px;
+        color: rgb(0, 0, 0);
+    }
+    .Donate-today >div{
+        margin-top: 20px;
+        display: flex;
+       margin: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .Donate-today >button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-top: 20px;
+        background-color: rgb(216, 230, 23);
+    }
+    .Donate-today >button:hover{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-top: 20px;
+        background-color: rgb(90, 219, 4);
+    }
+    .Donate-today hr{
+        width:70%;
+        margin: auto;
+
     }
 }
 
@@ -380,4 +707,60 @@ html{
         line-height: 50px;
     
 }
+
+
+
+
+    /* Donate Today section */
+
+    .Donate-today{
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+    .Donate-today >h1{
+        font-size: 33px;
+        font-weight: 600;
+    }
+    .Donate-today >p{
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 30px;
+        margin: 0px 60px;
+        color: rgb(0, 0, 0);
+    }
+    .Donate-today >div{
+        margin-top: 20px;
+        display: flex;
+       margin: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Donate-today >button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-top: 20px;
+        background-color: rgb(216, 230, 23);
+    }
+    .Donate-today >button:hover{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-top: 20px;
+        background-color: rgb(90, 219, 4);
+    }
+    .Donate-today hr{
+        width:70%;
+        margin: auto;
+
+    }
 }
