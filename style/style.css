@@ -2,6 +2,8 @@
     padding: 0px;
     margin: 0px;
 }
+
+/* navber section */
 .navber{
     display: flex;
     justify-content: space-between;
@@ -27,10 +29,24 @@
     color: black;
 }
 
+/* banner section */
 
 
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/donation0.jpg");
+    width:auto;
+    /* padding: 10px 10px; */
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+  
+    
+}
 
 
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -46,9 +62,12 @@
 
 
 @media screen and (max-width: 575.99px) {
+
+    /* navber section */
         .navber{
             background-color: rgb(139, 139, 139);
             padding: 16px 10px;
+            border-radius: 10px;
         }
         .About,.Contract{
             display: none;
@@ -65,6 +84,41 @@
         }
         .Login a:hover{
             color: rgb(255, 0, 0);
+        }
+
+        /* banner section */
+        .banner{
+            background-image:none;
+            background-color: rgb(146, 27, 27);
+            width:auto;
+            background-size: cover;
+            background-position: center;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .banner >button{
+            margin-top: 40px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            border: none;
+        }
+        .banner >h1{
+            text-align: center;
+            padding-top: 50px;
+            font-size: 33px;
+            font-weight: 600;
+            line-height: 50px;
+      
+        }
+        .banner >p{
+            text-align: center;
+            padding-top: 20px;
+            font-size: 20px;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
         }
         
 }
@@ -107,7 +161,39 @@
     .Login a:hover{
         color: rgb(69, 23, 238);
     }
+
+    /* banner section */
+    .banner{
+        background-size: cover;
+        background-position: center;
+      text-align: center;
+      /* padding-top: 50px;         */
+    }
+    .banner >button{
+        margin-top: 40px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+    }
+    .banner >h1{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 50px;
+        color: rgb(230, 226, 20);
+  
+    }
+    .banner >p{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(196, 196, 196);
     
+}
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.99px) {
@@ -115,7 +201,7 @@
         background-color: brown;
     }
     .navber{
-        padding: 16px 10px;
+        padding: 16px 20px;
     }
     .Login a{
         /* cursor: pointer; */
@@ -147,6 +233,41 @@
     .Login a:hover{
         color: rgb(69, 23, 238);
     }
+
+    /* banner section */
+
+
+    .banner{
+        background-size: cover;
+        background-position: center;
+      text-align: center;
+      /* padding-top: 50px;         */
+    }
+    .banner >button{
+        margin-top: 40px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+    }
+    .banner >h1{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 50px;
+        color: rgb(230, 226, 20);
+  
+    }
+    .banner >p{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(196, 196, 196);
+    
+}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.99px) {
@@ -225,4 +346,38 @@
     .Login a:hover{
         color: rgb(69, 23, 238);
     }  
+
+    /* banner section */
+
+    .banner{
+        background-size: cover;
+        background-position: center;
+      text-align: center;
+      /* padding-top: 50px;         */
+    }
+    .banner >button{
+        margin-top: 40px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+    }
+    .banner >h1{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 50px;
+        color: rgb(230, 226, 20);
+  
+    }
+    .banner >p{
+        margin:30px 50px;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(196, 196, 196);
+        line-height: 50px;
+    
+}
 }
