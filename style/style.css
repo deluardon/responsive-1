@@ -77,6 +77,11 @@ html{
 
 /* Donate Today plan */
 
+.donate-plan{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
 .plan{
     text-align: center;
     width: 100%;
