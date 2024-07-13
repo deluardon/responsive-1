@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 10px; */
+}
+.navber >li{
+    list-style: none;
+}
+.navber >li >a{
+    text-decoration: none;
+    color: black;
+}
+.navber >ul{
+    display: flex;
+    gap: 15px;
+}
+.navber >ul >li{
+    list-style: none;
+}
+.navber >ul >li >a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 575.99px) {
+        .navber{
+            background-color: rgb(139, 139, 139);
+            padding: 16px 10px;
+        }
+        .About,.Contract{
+            display: none;
+        }
+        .Login a{
+            /* cursor: pointer; */
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .navber> li a{
+            font-size: 24px;
+            font-weight: 600;
+            color: rgb(5, 5, 5);
+        }
+        .Login a:hover{
+            color: rgb(255, 0, 0);
+        }
+        
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.99px) {
+    .navber{
+        background-color: blue;
+    }
+    .navber{
+        
+        padding: 16px 10px;
+    }
+    .Login a{
+        /* cursor: pointer; */
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .navber> li a{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .About{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .Contract{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .About a:hover
+    {
+        color: rgb(162, 238, 20);
+    }
+    .Contract a:hover{
+        color: rgb(15, 221, 135);
+    }
+    .Login a:hover{
+        color: rgb(69, 23, 238);
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.99px) {
+    .navber{
+        background-color: brown;
+    }
+    .navber{
+        padding: 16px 10px;
+    }
+    .Login a{
+        /* cursor: pointer; */
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .navber> li a{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .About{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .Contract{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .About a:hover
+    {
+        color: rgb(162, 238, 20);
+    }
+    .Contract a:hover{
+        color: rgb(15, 221, 135);
+    }
+    .Login a:hover{
+        color: rgb(69, 23, 238);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.99px) {
+    .navber{    
+        background-color: chartreuse;
+    }
+    .navber{
+        padding: 16px 10px;
+    }
+    .Login a{
+        /* cursor: pointer; */
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .navber> li a{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .About{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .Contract{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .About a:hover
+    {
+        color: rgb(162, 238, 20);
+    }
+    .Contract a:hover{
+        color: rgb(15, 221, 135);
+    }
+    .Login a:hover{
+        color: rgb(69, 23, 238);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navber{    
+        background-color: coral;
+    }  
+    .navber{
+        padding: 16px 10px;
+    }
+    .Login a{
+        /* cursor: pointer; */
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .navber> li a{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .About{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .Contract{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+    }
+    .About a:hover
+    {
+        color: rgb(162, 238, 20);
+    }
+    .Contract a:hover{
+        color: rgb(15, 221, 135);
+    }
+    .Login a:hover{
+        color: rgb(69, 23, 238);
+    }  
+}
